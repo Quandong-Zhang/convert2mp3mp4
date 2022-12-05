@@ -19,7 +19,7 @@ echo "%%~s1=%~s1"
 echo "%%~n1=%~n1"
 echo "%%~f1=%~f1"
 echo "%%~dp1=%~dp1"
-echo "E:\Programs\ffmpeg-3.3.2-win64-static\bin\ffmpeg.exe"
+echo "ffmpeg from %PATH%"
 echo "%%1=%1"
 
 rem goto exit
@@ -30,7 +30,7 @@ echo ===============================
 for %%s in (.,*) do (
   if not "." == "%%s" (
     echo %%s
-	"E:\Programs\ffmpeg-3.3.2-win64-static\bin\ffmpeg.exe" -y -i "%%s" "%%s.avi"
+	ffmpeg -y -i "%%s" "%%s.avi"
     echo aviÃ·»°ÕÍ±œ£∫%~f1\%%s.avi
     echo ===============================
   )
