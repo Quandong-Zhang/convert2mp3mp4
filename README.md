@@ -4,7 +4,7 @@ convert any file like *.flv to .mp3/.mp4 using ffmpeg, support batch/folder oper
 # install
 download ffmpeg from http://www.ffmpeg.org/download.html
 
-extract files to E:\Programs\ffmpeg-3.3.2-win64-static
+extract ffmpeg.exe to a folder in %PATH%
 
 # how to use 
 drag file/folder which include files to *.bat file
@@ -12,7 +12,7 @@ drag file/folder which include files to *.bat file
 # 安装
 下载ffmpeg http://www.ffmpeg.org/download.html
 
-解压到E:\Programs\ffmpeg-3.3.2-win64-static
+解压ffmpeg.exe到任意与环境变量%PATH%下的目录
 
 # 操作方法
 拖动文件或者文件夹到对应的bat文件即可
